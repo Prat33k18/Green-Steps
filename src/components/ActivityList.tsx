@@ -2,7 +2,7 @@
 import React from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Oven, Car, Laptop, Smartphone, CalendarIcon, Clock } from "lucide-react";
+import { Flame, Car, Laptop, Smartphone, CalendarIcon, Clock } from "lucide-react";
 import { Activity } from "./ActivityForm";
 import { format } from "date-fns";
 
@@ -13,8 +13,8 @@ interface ActivityListProps {
 const ActivityList: React.FC<ActivityListProps> = ({ activities }) => {
   const getActivityIcon = (iconName: string) => {
     switch (iconName) {
-      case "Oven":
-        return <Oven className="h-5 w-5" />;
+      case "Flame":
+        return <Flame className="h-5 w-5" />;
       case "Car":
         return <Car className="h-5 w-5" />;
       case "Laptop":

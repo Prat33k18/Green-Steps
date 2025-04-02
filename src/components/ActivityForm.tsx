@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Oven, Car, Laptop, Smartphone } from "lucide-react";
+import { Flame, Car, Laptop, Smartphone } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 export interface Activity {
@@ -63,7 +63,7 @@ const ActivityForm: React.FC<ActivityFormProps> = ({ onActivityAdded }) => {
   
   const getIconForActivity = (type: string): string => {
     switch (type) {
-      case "oven": return "Oven";
+      case "oven": return "Flame";
       case "driving": return "Car";
       case "laptop": return "Laptop";
       case "mobile": return "Smartphone";
@@ -92,7 +92,7 @@ const ActivityForm: React.FC<ActivityFormProps> = ({ onActivityAdded }) => {
                 <span className="text-xs">Mobile</span>
               </TabsTrigger>
               <TabsTrigger value="oven" className="flex flex-col items-center py-3 px-1 gap-1">
-                <Oven className="h-5 w-5" />
+                <Flame className="h-5 w-5" />
                 <span className="text-xs">Oven</span>
               </TabsTrigger>
               <TabsTrigger value="driving" className="flex flex-col items-center py-3 px-1 gap-1">
