@@ -15,8 +15,22 @@ GreenSteps is a full-stack web application designed to track your daily carbon-e
 
 ---
 
-### Screenshots
+### 📸 UI Preview
 
+#### 🔐 Authentication Page
+![Auth Page](Auth.png)
+
+#### ➕ Activity Add Form
+![Activity Add](ActivityAdd.png)
+
+#### ♻️ AI-Generated Alternatives
+![Alternatives](Alternatives.png)
+
+#### 📈 Analytics Dashboard
+![Analytics](Analytics.png)
+
+#### 🎁 Reward Screen
+![Reward](Reward.png)
 
 
 ## 🧩 Tech Stack
